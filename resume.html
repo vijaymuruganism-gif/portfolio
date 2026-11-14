@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="Resume of Vijay Murugan P — Full-Stack & Software Engineer.">
+  <title>Resume — Vijay Murugan P</title>
+  <script>
+    if (localStorage.getItem("user-color-scheme") !== null) {
+      document.documentElement.setAttribute("data-user-color-scheme", localStorage.getItem("user-color-scheme"));
+    }
+  </script>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    .print-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.5rem 0 2rem;
+      padding: 0.8rem 1rem;
+      border: 1px dashed var(--text-color);
+      background: var(--card-bg);
+    }
+    .print-btn {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: var(--font-xs);
+      background: var(--text-color);
+      color: var(--bg-color);
+      padding: 6px 12px;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .print-btn:hover {
+      opacity: 0.88;
+    }
+    .resume-section {
+      margin-bottom: 2.2rem;
+    }
+    .resume-section h2 {
+      border-bottom: 2px solid var(--text-color);
+      padding-bottom: 0.2em;
+      margin-top: 1.5em;
+      font-size: 1.2rem;
+      letter-spacing: 0.08em;
+    }
+    .job-entry {
+      margin-bottom: 1.4rem;
+    }
+    .job-entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .job-entry-sub {
+      font-style: italic;
+      font-size: 0.98rem;
+      margin-bottom: 0.4em;
+    }
+  </style>
+</head>
+<body class="resume-page">
+  <div class="app">
+    <header class="header-main">
+      <div class="container">
+        <h1 class="chapter">Resume</h1>
+        <p class="back-home"><a href="index.html">← Vijay Murugan P</a></p>
+      </div>
+    </header>
+
+    <main id="content" class="content resume">
+      <div class="container">
+        
+        <div class="print-actions">
+          <span>Curriculum Vitae • MMXXVI</span>
+          <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+        </div>
+
+        <!-- Header Summary -->
+        <div class="center" style="margin-bottom: 2rem;">
+          <h2 style="font-size: 2rem; margin: 0; text-transform: uppercase; border: none;">Vijay Murugan P</h2>
+          <p style="margin: 0.3em 0; font-family: 'JetBrains Mono', monospace; font-size: var(--font-xs);">
+            Karur, Tamil Nadu, India • +91 8610921499 • vijaymuruganisin@gmail.com
+          </p>
+          <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: var(--font-xs);">
+            <a href="https://linkedin.com/in/vijaymurugan" target="_blank" rel="noopener">linkedin.com/in/vijaymurugan</a> • 
+            <a href="https://github.com/vijaymuruganism-gif" target="_blank" rel="noopener">github.com/vijaymuruganism-gif</a>
+          </p>
+        </div>
+
+        <!-- Professional Summary -->
+        <section class="resume-section">
+          <h2>Professional Summary</h2>
+          <p>
+            Results-driven <strong>Computer Science &amp; Business Systems (CSBS)</strong> graduate (2026) with a solid foundation in Java, Spring Boot, React.js, Python, and SQL. Proven experience architecting end-to-end full-stack applications, scalable RESTful APIs, and machine learning pipelines following Agile/SDLC best practices. Completed industry-aligned project tracks on <strong>Infosys Springboard</strong>. Adept at algorithmic problem-solving with <strong>100+ LeetCode solutions</strong> and dedicated to engineering reliable, high-performance software systems.
+          </p>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="resume-section">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li><strong>Programming Languages:</strong> Java (Core &amp; Advanced), Python, SQL (MySQL, PostgreSQL), JavaScript (ES6+).</li>
+            <li><strong>Frameworks &amp; Web Technologies:</strong> Spring Boot, React.js, RESTful APIs, HTML5, CSS3, Tailwind CSS, Flask.</li>
+            <li><strong>Databases &amp; Cloud Tools:</strong> MySQL Workbench, MongoDB, AWS Cloud Essentials, Relational Schema Design (3NF), Query Optimization.</li>
+            <li><strong>Core CS &amp; Practices:</strong> Data Structures &amp; Algorithms (DSA), OOP, DBMS, Operating Systems, SDLC, STLC, Git/GitHub, Postman.</li>
+          </ul>
+        </section>
+
+        <!-- Key Technical Projects -->
+        <section class="resume-section">
+          <h2>Key Technical Projects</h2>
+
+          <div class="job-entry">
+            <div class="job-entry-header">
+              <span>AgroXpert – AI Agricultural Platform</span>
+              <span style="font-family: monospace; font-size: 0.85rem; font-weight: 400;">Jan 2026 – Mar 2026</span>
+            </div>
+            <div class="job-entry-sub">
+              Lead Developer | Python, Machine Learning (CNN, KNN, Random Forest), React.js, Flask
+            </div>
+            <ul>
+              <li>Architected a full-stack smart farming platform integrating 3 predictive ML models for plant disease detection, crop pricing, and water usage forecasting.</li>
+              <li>Implemented an image-processing pipeline using Region of Interest (ROI) extraction, achieving <strong>93.8% disease classification accuracy</strong>.</li>
+              <li>Engineered automated data pipelines and interactive web dashboards, cutting data processing latency across API endpoints by <strong>30%</strong>.</li>
+            </ul>
+          </div>
+
+          <div class="job-entry">
+            <div class="job-entry-header">
+              <span>Sports Performance Monitoring &amp; Analytics System</span>
+              <span style="font-family: monospace; font-size: 0.85rem; font-weight: 400;">Aug 2025 – Nov 2025</span>
+            </div>
+            <div class="job-entry-sub">
+              Full-Stack Developer | Java, Spring Boot, MySQL, Infosys Springboard
+            </div>
+            <ul>
+              <li>Developed a modular tournament management system handling player registration, live match statistics, and automated performance scoring.</li>
+              <li>Designed an optimized 3NF relational schema with stored procedures, reducing database report generation query times by <strong>45%</strong>.</li>
+              <li>Conducted complete testing lifecycle (Unit, Functional, Regression, Smoke testing), identifying and resolving <strong>15+ functional defects</strong>.</li>
+            </ul>
+          </div>
+
+          <div class="job-entry">
+            <div class="job-entry-header">
+              <span>Retail Inventory Management &amp; Tracking System</span>
+              <span style="font-family: monospace; font-size: 0.85rem; font-weight: 400;">Feb 2025 – May 2025</span>
+            </div>
+            <div class="job-entry-sub">
+              Backend &amp; Database Developer | Java, SQL, JDBC, Swing
+            </div>
+            <ul>
+              <li>Built a desktop inventory management software supporting automated stock tracking, CRUD operations, billing, and reorder alerts.</li>
+              <li>Implemented parameterized SQL transactions and database triggers to eliminate concurrency anomalies and prevent stock discrepancies.</li>
+              <li>Created automated CSV export and analytics routines, delivering real-time inventory turnover and daily sales revenue summaries.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Education & Key Achievements -->
+        <section class="resume-section">
+          <h2>Education &amp; Key Achievements</h2>
+          <div class="job-entry">
+            <div class="job-entry-header">
+              <span>Bachelor of Technology (B.Tech) – Computer Science &amp; Business Systems</span>
+              <span style="font-family: monospace; font-size: 0.85rem; font-weight: 400;">2022 – 2026</span>
+            </div>
+            <div class="job-entry-sub">
+              VSB Engineering College (Autonomous), Karur | Anna University • <strong>CGPA: 7.4 / 10.0 (74%)</strong>
+            </div>
+            <ul>
+              <li><strong>Key Achievements:</strong> Solved 100+ Data Structures &amp; Algorithms challenges on LeetCode; Active participant in collegiate hackathons and technical coding symposiums.</li>
+              <li><strong>Relevant Coursework:</strong> Data Structures &amp; Algorithms, Database Management Systems, Object-Oriented Programming, Software QA.</li>
+              <li><strong>Academic Record:</strong> Higher Secondary Certificate (HSC): 76% | Secondary School Leaving Certificate (SSLC): 78%.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="resume-section">
+          <h2>Certifications &amp; Credentials</h2>
+          <ul>
+            <li><strong>Postman API Student Expert</strong> – Postman</li>
+            <li><strong>Software Engineering Job Simulation</strong> – JPMorgan Chase &amp; Co. (Forage)</li>
+            <li><strong>Java &amp; SQL Certified</strong> – HackerRank</li>
+            <li><strong>Google IT Support Professional Certificate</strong> – Google / Coursera</li>
+            <li><strong>AWS Cloud Foundations</strong> – AWS Academy</li>
+            <li><strong>Database Management Systems</strong> – Coursera</li>
+            <li><strong>Generative AI Foundations</strong> – IBM</li>
+            <li><strong>Data Analytics &amp; Visualization</strong> – NoviTech</li>
+          </ul>
+        </section>
+
+        <div class="mode-toggle">
+          <button class="toggle-button js-mode-toggle" aria-label="Toggle light and dark color mode">
+            <span class="toggle-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width=".28in" height=".28in" viewBox="0 0 20 20">
+                <g id="moon"><path d="M9,2.9c-2,0-3.8,.8-5.2,2.2,.7-.3,1.4-.5,2.1-.5,3,.1,5.3,2.7,5.2,5.6-.1,2.9-2.4,5.1-5.2,5.2-.7,0-1.5-.2-2.1-.5,2.8,2.9,7.3,2.9,10.1,.2s3-7.3,.3-10.1c-1.4-1.3-3.3-2.2-5.2-2.1h0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></g>
+                <g id="sun">
+                  <circle cx="10" cy="9.96" r="4.1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="10" y1="1.56" x2="10" y2="3.46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="10" y1="16.46" x2="10" y2="18.36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="18.4" y1="9.96" x2="16.5" y2="9.96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="3.5" y1="9.96" x2="1.6" y2="9.96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="15.9" y1="15.86" x2="14.6" y2="14.56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="5.4" y1="5.36" x2="4.1" y2="4.06" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="15.9" y1="4.06" x2="14.6" y2="5.36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="5.4" y1="14.56" x2="4.1" y2="15.86" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+            </span>
+            <span class="toggle-text js-mode-toggle-text">mode</span>
+          </button>
+        </div>
+
+        <footer class="main-footer">
+          <div class="footer-links">
+            <nav class="links">
+              <a href="index.html">Index</a>
+              <a href="about.html">About</a>
+              <a href="work.html">Work</a>
+              <a href="skills.html">Skills</a>
+              <a href="resume.html">Resume</a>
+            </nav>
+            <nav class="footer-icons">
+              <a href="https://github.com/vijaymuruganism-gif" target="_blank" rel="noopener" title="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="https://linkedin.com/in/vijaymurugan" target="_blank" rel="noopener" title="LinkedIn">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="mailto:vijaymuruganisin@gmail.com" title="Email">
+                <svg viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.259l4.616-3.741v9.452l-4.616-5.711z"/></svg>
+              </a>
+            </nav>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
